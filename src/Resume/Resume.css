@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  font-family: "Righteous", monospace;
+}
+/*! header section */
+.header .heading-name p {
+  font-weight: bold;
+}
+
+.header .heading-name h2 {
+  border-bottom: 3px solid rgb(123, 255, 0);
+  margin-left: 3rem;
+  transition: 0.45s ease-in-out;
+}
+.header .heading-name h2:hover {
+  border-bottom: 3px solid rgb(255, 165, 0);
+  font-size: 2.15rem;
+}
+.header nav {
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+.header nav a {
+  padding: 0rm 1rem;
+  font-weight: bold;
+}
+.header nav .nav-link:hover {
+  background-color: orange;
+  color: #fffffff8;
+  font-weight: bold;
+  border-radius: 1rem 2rem 1rem 2rem;
+}
+/* ? ------------END--------------------------------------------- */
+/* ! ----Featurette css------- */
+.cp- {
+  margin-top: 5rem;
+}
+.featurette-img {
+  height: 300px;
+  width: 350px;
+  justify-content: center;
+  flex: content;
+  border-radius: 1rem 7rem;
+}
+.featurette {
+  border: 2px solid rgba(43, 41, 41, 0.473);
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 11px 9px #e9dedec7;
+  margin-bottom: 2.5rem;
+}
+.featurette-heading {
+  margin-top: 1rem;
+  padding: 2rem;
+}
