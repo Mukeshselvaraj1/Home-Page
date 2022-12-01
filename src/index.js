@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 // react router
 import { BrowserRouter } from "react-router-dom";
 // css file
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./Resume/Resume.css";
-import App from "./App";
+//import "./Resume/Resume.css";
+//import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 <script
   src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
@@ -16,7 +16,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      {/* <App /> */}
+      <h2>hello</h2>
     </BrowserRouter>
   </React.StrictMode>
 );
