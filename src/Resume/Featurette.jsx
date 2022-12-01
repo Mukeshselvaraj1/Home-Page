@@ -30,14 +30,14 @@ function Featurette() {
         <div className="col-md-7 order-md-2 featurette-heading">
           <p>
             I have completed M.Sc., and B.Sc., Computer Science from
-            <a href="#" target="_blank">BHARATH Collage,Thanjaur</a>.
+            <a href='https://www.google.co.in'  target='-blank'>BHARATH Collage,Thanjaur</a>.
             <p> My school stadies is Goverment
               school,Gandarvakkotai.</p>
           </p>
           <p>
 
             I completed Front-End Devolaper course
-            (HTML5, CSS, JavaScript, ReactJS) from <a className="#" target="_blank"> Besant Technolagy,Chennai.</a>
+            (HTML5, CSS, JavaScript, ReactJS) from <a className="#" href='https://www.google.co.in' rel='Besant' target='-blank'> Besant Technolagy,Chennai.</a>
           </p>
         </div>
         <div className='col-md-5  order-md-1'>
